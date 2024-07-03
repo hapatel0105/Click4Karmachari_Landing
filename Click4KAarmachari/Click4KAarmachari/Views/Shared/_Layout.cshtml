@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click4Karmchari</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/Content/assets/img/k-f.png" title="Favicon" sizes="16x16" />
+
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="~/Content/cdn.jsdelivr.net/npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="~/Content/assets/css/lib/bootstrap.min.css">
+
+    <!-- ====== font family ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="~/Content/assets/css/lib/all.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/lib/animate.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/lib/jquery.fancybox.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/lib/swiper.min.css" />
+    <!-- ====== global style ====== -->
+    <link rel="stylesheet" href="~/Content/assets/css/style.css" />
+</head>
+<body>
+    <div class="top-navbar style-4"></div>
+    <nav class="navbar style-4 navbar-expand-sm bg-light">
+        <div class="container">
+            <img src="~/Content/assets/img/Click-4-Logo-k.png" style="height:78px" />
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse drop navbar-collapse d-sm-inline-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-lg-center d-sm-flex justify-content-sm-end fa-10x">
+                    <li class="nav-item"><a class="nav-link text-uppercase active" href="/Home/Index">Home</a>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="/Home/About">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="/Home/Modules">
+                            Modules
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="/Home/Admin">ADMIN PANEL</a></li>
+                            <li><a class="dropdown-item" href="/Home/Employee">EMPLOYEE PANEL</a></li>
+                            <li><a class="dropdown-item" href="#">MOBILE APP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="/Home/Contact">Contact</a></li>
+                </ul>
+            </div>
+            <a class="btn rounded-pill bg-blue4 hover-blue02 sm-butn fw-bold text-white fs-12px">Free Trial</a>
+        </div>
+    </nav>
+
+
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="style-4 style-3">
+        <div class="container style-4">
+            <div class="top-footer section-head">
+                <h1 class="text-center">Ready To  <span>Download</span></h1>
+                <p class="fs-14px justify-content-center d-flex pt-2 pb-2">Download from App Store or Google Play.</p>
+                <div class="d-flex justify-content-evenly align-items-center pt-4 mb-5">
+                    <div class="col-lg-3">
+                        <a class="btn rounded-pill color-000 fs-12px border-blue7 bg-light fw-bold" href="#"> <i class="fab fa-apple me-2 pe-2 pt-1 border-end"></i> Download On App Store</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a class="btn bg-light rounded-pill fs-12px border-blue7 color-000 fw-bold" href="#"> <i class="fab fa-google-play me-2 pe-2 pt-1 border-end"></i> Download On Play Store</a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between align-items-baseline">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="items">
+                            <img src="~/Content/assets/img/Click-4-Logo-k.png" height="115px" />
+                            <small class="text d-block">The Best Software Of Employee Management System</small>
+                            <div class="mt-3">
+                                <a href="https://facebook.com/" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray me-2" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://instagram.com/" class="icon-35 rounded-circle bg-gray overflow-hidden d-inline-flex align-items-center justify-content-center text-gray" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="items">
+                            <h5 class="fw-bold title">Information</h5>
+                            <ul>
+                                <li>
+                                    <a href="#" class="text-decoration-none text">
+                                        <small>+91-9558675542</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text">
+                                        <small>+91-9033772134</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none text">
+                                        <small>support@Click4Karmchari.com</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="items">
+                            <div class="title">
+                                Useful Links
+                            </div>
+                            <a class="text d-block" href="Home/Index">
+                                Home
+                            </a>
+                            <a class="text d-block" href="Home/About">
+                                About
+                            </a>
+                            <a class="text d-block" href="Home/Modules">
+                                Modules
+                            </a>
+                            <a class="text d-block" href="Home/Contact">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="items">
+                            <div class="title">
+                                Our Company
+                            </div>
+                            <a class="text d-block" href="#">
+                                FAQ
+                            </a>
+                            <a class="text d-block" href="#">
+                                Privacy Policy
+                            </a>
+                            <a class="text d-block" href="#">
+                                Refund Policy
+                            </a>
+                            <a class="text d-block" href="#">
+                                Terms & Conditions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center fs-14px copywrite">© 2022 Copyrights by <a href="#" class="fw-bold txt-clr text-decoration-underline">Click4Karmchari</a> All Rights Reserved. Designed by <a href="https://mbhtechnologies.com/" target="_blank" class="fw-bold txt-clr text-decoration-underline">MBH Technologies PVT. LTD.</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/Content/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="~/Content/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="~/Content/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/assets/js/lib/wow.min.js"></script>
+    <script src="~/Content/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="~/Content/assets/js/lib/lity.js"></script>
+    <script src="~/Content/assets/js/lib/swiper.min.js"></script>
+    <script src="~/Content/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="~/Content/assets/js/lib/jquery.counterup.js"></script>
+    @*<script src="~/Content/assets/js/lib/pace.js"></script>*@
+    <script src="~/Content/assets/js/lib/scrollIt.min.js"></script>
+    <script src="~/Content/assets/js/main.js"></script>
+    <script>function check() {
+        var checkBox = document.getElementById("flexSwitchCheckDefault");
+        var text1 = document.getElementsByClassName("text1");
+        var text2 = document.getElementsByClassName("text2");
+
+        for (var i = 0; i < text1.length; i++) {
+            if (checkBox.checked == true) {
+                text1[i].style.display = "block";
+                text2[i].style.display = "none";
+            } else if (checkBox.checked == false) {
+                text1[i].style.display = "none";
+                text2[i].style.display = "block";
+            }
+        }
+    }
+    check();</script>
+</body>
+</html>
